@@ -1,0 +1,107 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: paleturquoise;
+    color: #0c0c0c00;
+    padding-inline-start: auto;
+};
+
+header .logo img 
+    header .logo img {
+        height: 20px;
+        margin: 5px;
+        justify-content: center;
+                           }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background:paleturquoise
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color:black;
+}
+
+#servicios {
+    background:paleturquoise;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px paleturquoise (0, 0, 0, 0.1);
+}
+
+section h3 {
+    margin-bottom: 20px;
+    color:black;
+}
+
+#tienda {
+    background:paleturquoise;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px paleturquoise (0, 0, 0, 0.1);
+}
+
+#citas{
+    background:paleturquoise;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px paleturquoise (0, 0, 0, 0.1);
+}
+#contacto {
+    background:paleturquoise;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px paleturquoise (0, 0, 0, 0.1);
+}
+
+#tienda {
+    background: paleturquoise;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px paleturquoise (0, 0, 0, 0.1)
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #ffff;
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+}

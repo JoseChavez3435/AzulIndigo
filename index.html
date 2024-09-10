@@ -1,0 +1,135 @@
+<html lang="esp">
+<head>
+    <meta charset "utf-8">
+    <meta name="viewport" content="width=device-whidth, initial-scale=1.0">
+    <title>azul-servicios-holisticos-akashicos-numerologia</title>
+    <link rel="stylesheet" href="c:\Users\josse\OneDrive\Documentos\proyectos programacion\azul indigo\ccs\estilos.css">
+</head>
+<script src="js/script.js"></script>
+<body>
+    <!--Encabezado con logo y navegacion-->
+    <header>
+       <!--div class="logo"-->
+            <!--img src="images/logo1.jpg" alt="logo azul-servicios-holisticos-akashicos-numerologia"-->
+        <!--/div-->
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#citas">Citas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--seccion de inicio-->
+    <Section id="inicio">
+        <h1>AZUL INDIGO</h1>
+        <p>Somos un equipo de mujeres que uniendo nuestras habilidades deseamos ofrecer terapias holisiticas 
+            con el fin de ayudar a las personas a encontrar sanacion espiritual y conocimiento del alma, complementadolas 
+            con productos diversos que impulzan este crecimiento y liberacion energetica.
+        </p>
+    </Section>
+    <!--seccion de servicios-->
+    <section id="servicios">
+        <div class="servicios">
+        <h2>NUESTROS SERVICIOS</h2> 
+        <h3>REGISTROS AKASHICOS & REIKI</h3>
+        <p>Acceder a una lectura de registros akáshicos es ingresar a la información de tu alma y eso implica saber sobre tus vidas pasadas, dando consejos o guías sagradas para que tomes acción a partir de ver esa vida de manera distinta y más amplia</p>
+        </div>
+        <div class="servicios">
+            <h3>NUMEROLOGIA PERSONAL & REIKI</h3>
+            <p>Los números definen las vibraciones de los seres vivos e influyen en las personas y en los objetos que las rodeananalizan los talentos y las necesidades, los miedos y los potenciales</p>
+            </div>
+    </section>
+    <!-- Sección de Tienda -->
+    <section id="tienda">
+        <h2>NUESTROS PRODUCTOS</h2>
+        <div class="producto">
+            <h3>VELAS INTENCIONADAS</h3>
+            <p>$200.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <h3>VARITAS MAGICAS</h3>
+            <p>$400.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <h3>POLVITOS MAGICOS</h3>
+            <p>$80.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <h3>AMARRADITOS</h3>
+            <p>$110.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <h3>TARJETAS CON SIMBOLOS</h3>
+            <p>$30.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <h3>TARJETAS CON ANGELES</h3>
+            <p>$30.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+        <div class="producto">
+            <h3>BANDANAS CON SIMBOLOS PARA MASCOTAS</h3>
+            <p>DESDE $150.00</p>
+            <button>Añadir al Carrito</button>
+        </div>
+    </section>
+          <!-- Sección de Agendar Citas -->
+          <section id="citas">
+            <h2>Agendar una Cita</h2>
+            <div class "citas"></div>
+            <form action="/reservar-cita" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="servicio">Selecciona un Servicio:</label>
+                <select id="servicio" name="servicio">
+                    <option value="akashicos">Lectura de Registros Akáshicos</option>
+                    <option value="numerologia">Numerología Personal</option>
+                </select>
+    
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+    
+                <button type="submit">Reservar Cita</button>
+            </form>
+        </section> 
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class "CONTACTO"></div/H2>
+                        <form action="/enviar-mensaje" method="POST">
+                <label for="mensaje-nombre">Nombre:</label>
+                <input type="text" id="mensaje-nombre" name="nombre" required>
+    
+                <label for="mensaje-email">Email:</label>
+                <input type="email" id="mensaje-email" name="email" required>
+    
+                <label for="mensaje-texto">Mensaje:</label>
+                <textarea id="mensaje-texto" name="mensaje" required></textarea>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="contacto">
+            
+        </section>
+       
+        <!-- Footer -->
+        <footer>
+            <p>2024 AZUL SERVICIOS HOLISTICOS.</p>
+        </footer>
+    
+        
+    </body>
+    </html>
